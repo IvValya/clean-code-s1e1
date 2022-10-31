@@ -1,33 +1,37 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.header__img {
   width: 100%;
 }
-.aaa .more_inf {
+.header__a {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa { 
+  .header {
     text-align: center;
   }
-  
+
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
+}
+.main__item {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .task {
   width: 56%;
